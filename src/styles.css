@@ -1,0 +1,40 @@
+.container {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.searchBar {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.listContainer {
+  width: 320px;
+  max-height: 300px;
+  overflow-y: scroll;
+  border: solid 1px black;
+  position: relative;
+  top: -3px;
+}
+
+.listContainer {
+  border: 1px solid #ddd;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.item {
+  padding: 10px;
+  cursor: pointer;
+}
+.item:hover,
+.highlighted {
+  background-color: #f0f0f0;
+}
